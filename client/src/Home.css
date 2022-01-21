@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+
+/*tablets, laptops and dekstops */
+@media screen and (min-width: 768px){
+
+#leftRow, #rightRow{
+    width: 20%;
+    background-color: #8D99AE;
+    min-height:100vh;
+}
+
+.feed-container{
+    width: 60%;
+    min-height: 100vh;
+    background-color: #8D99AE;
+}
+}
+
+/* mobile phones*/
+@media screen and (max-width: 768px){
+    .feed-container{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #8D99AE;
+    }
+
+    #leftRow, #rightRow{
+        display: none;
+    }
+}

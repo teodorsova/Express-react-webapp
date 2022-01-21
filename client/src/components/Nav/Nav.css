@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2B2D42;
+    color: white;
+    position:sticky;
+  }
+  
+  .nav-links {
+    float: right;
+    
+    list-style: none;
+    display: flex;
+    margin: 0
+  }
+
+.notification-btn {
+  margin-left: 1vw;
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  background-color: aliceblue;
+}
+
+.notification-btn.toggle{
+  background-color: crimson;
+}
+
+.custom {
+  height: 120px;
+  width: 150px;
+  background-color: blanchedalmond;
+  position: absolute;
+  display: none;
+  margin-left:75px;
+  margin-top: 45px;
+}
+
+.notification-text{
+  color:black;
+  z-index: 100;
+  position: absolute;
+  padding:10px 10px;
+}

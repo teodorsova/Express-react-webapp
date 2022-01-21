@@ -1,0 +1,33 @@
+.listing{
+    border: 1px solid darkgray;
+    padding:4vh;
+    border-radius: 5vh;
+    
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    margin-right:5vh;
+    background-color: aliceblue;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.listing > p{
+    padding:0;
+    color: black;
+}
+
+.claim-btn{
+    background-color: green;
+    border: none;
+    padding: 0px;
+    font: inherit;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 65px;
+    width: 140px;
+    margin-top: 10px;
+}
+

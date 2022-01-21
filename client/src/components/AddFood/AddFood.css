@@ -1,0 +1,13 @@
+@media all and (min-width: 480px) {
+  
+    .AddListing {
+      padding: 30px 0;
+    }
+  
+    .AddListing form {
+      margin: 0 auto;
+      max-width: 300px;
+    }
+  }
+
+  
